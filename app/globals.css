@@ -4,11 +4,11 @@
 
 :root {
   --foreground-rgb: 0, 0, 0;
-  --bg-1: #DDD8C4;
-  --bg-2: #A3C9A8;
-  --bg-3: #84B59F;
-  --bg-4: #69A297;
-  --bg-5: #50808E;
+  --bg-1: #ef476f;
+  --bg-2: #ffd166;
+  --bg-3: #06d6a0;
+  --bg-4: #118ab2;
+  --bg-5: #073b4c;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -21,6 +21,10 @@
 
 body {
   color: #ffffff;
+  animation: backgroundColor 30s  infinite alternate;
+}
+
+nav {
   animation: backgroundColor 30s  infinite alternate;
 }
 

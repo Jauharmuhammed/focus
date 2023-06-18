@@ -49,6 +49,7 @@ export default function Sound({ title, icon, sound }) {
                     max="1"
                     step="0.02"
                     onChange={(e) => setVolume(e.target.value)}
+                    onInput={(e) => setVolume(e.target.value)}
                     value={volume}
                     className="w-28 h-0.5 bg-gray-200 rounded-lg appearance-none cursor-pointer"
                 />

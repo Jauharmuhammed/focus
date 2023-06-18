@@ -45,7 +45,8 @@ export default function Mute() {
                     min="0"
                     max="1"
                     step="0.02"
-                    onChange={handleVolumeControl}
+                    onChange={(e) => setPrimaryVolume(e.target.value)}
+                    onInput={(e) => setPrimaryVolume(e.target.value)}
                     value={primaryVolume}
                     className="w-28 h-0.5 bg-gray-200 rounded-lg appearance-none cursor-pointer"
                 />
